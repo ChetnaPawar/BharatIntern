@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="tempconv.css">
+    <link rel="stylesheet" href="tempconv.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalam&family=Noto+Sans:wght@200&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cssportfolio.css">
+</head>
+
+<body>
+    <div class="block">
+        <div class="topheading">
+            <h1>Temperature Converter</h1>
+        </div>
+        <div class="forms">
+            <i class="fa-fa-temperature"></i>
+            <form>
+                <label for="fromunit">From: </label>
+                <select name="From" id="fromunit">
+                    <option value="Celsius">&deg; Celsius</option>
+                    <option value="Fahrenheit">&deg; Fahrenheit</option>
+                    <option value="kelvin"> Kelvin </option>
+                </select><br>
+                <label for="tounit">To: </label>
+                <select name="To" id="tounit">
+                    <option value="Celsius">&deg; Celsius</option>
+                    <option value="Fahrenheit" selected>&deg; Fahrenheit</option>
+                    <option value="kelvin"> Kelvin </option>
+                </select><br>
+                <label for="result">Temp: </label>
+                <input type="number" id="Temp" name="degreeval" placeholder="Entre Tempreature">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
