@@ -1,15 +1,6 @@
 const Calculatetemp = () =>{
-   //  const fromtempsel = document.getElementById('fromunit');
-   //  const totempsel = document.getElementById('tounit');
-   //  const fromtemp = fromunit.option[fromtempsel.selectedindex].value;
-   //  const totemp = tounit.option[totempsel.selectedindex].value;
-   //  const inputtemp = document.getElementById('temp').value;
-   //  let result = 0;
-   // const inputtemp = 10;
     const inputtemp = document.getElementById("temp").value;
     const fromtempsel = document.getElementById('fromunit').value;
-   //  document.getElementById("result").innerHTML = inputtemp;
-   // document.write(inputtemp);
    const totempsel = document.getElementById('tounit').value;
    if(fromtempsel == "Celsius" && totempsel == "Fahrenheit"){
       let r = ((inputtemp*1.8)+32);
